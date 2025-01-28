@@ -111,10 +111,10 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 The analysis also includes Tableau dashboards to provide interactive visualizations of the curated data, offering deeper insights into accident trends and risk factors. Few insights from the data i also shown in [Tableau Dashboard and Sheets](https://public.tableau.com/app/profile/md.reuzwan.hassan/viz/AviationAccidentDatabaseTableauDashboards/Dashboard1)
 
 
-![tableau_dashboard_1](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D1.png)
+![tableau_dashboard_1](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D1.PNG)
 
 
-![tableau_dashboard_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D2.png)
+![tableau_dashboard_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D2.PNG)
 
 ## Business Impact
 The insights and recommendations enable decision-makers to strategically evaluate aircraft purchase options, ensuring a balance between operational efficiency and safety while entering the aviation market.
