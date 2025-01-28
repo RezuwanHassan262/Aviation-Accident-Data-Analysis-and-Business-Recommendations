@@ -82,6 +82,7 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
   - **Engine types**
   - **Purpose of use** (commercial vs. private)
   - **Weather conditions**
+  - **Phase of flight during which the accident occurred**
     
 - Examined trends over time to understand how risks evolved.
 
