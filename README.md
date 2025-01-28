@@ -70,22 +70,29 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 
 ![freq_mapping](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/1.png)
 
-  - **Aircraft accident occurrence frequency mapping**
-
 ![barplot_subplots](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/2.png)
-  
-  - **Injury severity**
-  - **Aircraft damage**
-  - **Aircraft category**
-  - **Manufacturer**
-  - **Number of engines**
-  - **Engine types**
-  - **FAR description**
-  - **Purpose of use**
-  - **Weather conditions**
-  - **Phase of flight during which the accident occurred**
-    
-- Examined trends over time to understand how risks evolved.
+
+
+### **Insights:**
+- **Accident Occurrence:** Most aviation accidents during the period of this dataset occurred in the United States and Europe across the world 
+- **Injury Severity:** Most aviation accidents resulted in fatalities and other categories are much less common.
+- **Aircraft Damage:** Most aviation accidents caused substantial damage to aircraft, a smaller proportion resulted in the aircraft being destroyed, and minor damage was rare.
+- **Aircraft Category:** "Airplanes" are the most dominating category when comes to being involved in accidents according to this dataset. Other aero-vehicles such as "Helicopters" and "Gliders" are less frequent making "Ultralight" and "Powered parachutes" are negligible in numbers.
+- **Amateur-Built Aircraft:** Most aviation accidents involve non-amateur-built aircraft, with amateur-built cases being a smaller subset.
+- **Number of Engines:** Single-engine (1 engine) aircraft are more susceptible to accidents, while multi-engine aircraft (2/2+ engines) are less prone to accidents. Which indicates engine numbers play a pivotal role in avoiding aircraft accidents.
+- **Engine Type:** "Reciprocating" engine types are the most prone to accidents while Turbojets, turboprops, and other engine types are less prone. This indicates engine types also play a pivotal role in avoiding aircraft accidents.
+- **FAR (Federal Aviation Regulations) Description:** General Aviation (Part 91) accounts for the majority of accidents, reflecting private and small-scale aviation activity and other categories like agricultural aviation (Part 137) and commercial aviation (Part 121) occur less frequently.
+- **Purpose of Flight:** "Personal flights" along with "Instructional flights" and "unknown purposes" are more susceptible to accidents while other purposes are less prone.
+- **Weather Condition:** Most aviation accidents occur under VMC (Visual Meteorological Conditions), indicating clear weather. A smaller number of accidents happen under IMC (Instrument Meteorological Conditions), which involve poor visibility.
+- **Broad Phase of Flight:** Landing is the most accident-prone phase of flight, followed by takeoff and cruise. Climb and descent are less frequent, and go-around phases are rare.
+
+
+![barplot_subplots_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/3.png)
+
+  - **Data distribution of the relevant columns**
+  After cleaning the dataset and removing the irrelevant columns, I checked the distribution of the data in the relevant columns. Since all figures are very positively skewed the following columns will be updated with the 'Median' which won't change the data drastically.
+
+
 
 ## Key Findings
 1. **Manufacturer and Model Reliability**:
