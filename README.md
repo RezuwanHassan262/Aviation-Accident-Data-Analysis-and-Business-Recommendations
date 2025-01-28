@@ -8,7 +8,7 @@ Business Problem Statement:
 ## Project Overview
 This project supports a company’s strategic expansion into the aviation industry by identifying low-risk aircraft. The goal is to provide actionable insights and recommendations to minimize commercial and private aviation risks.
 
-## Project Overview
+## Dataset
 The dataset that was utilized for this project is the ["Aviation Accident Database & Synopses, up to 2023"](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) from Kaggle. The description of the dataset and a sample of the dataset is given below
 
 **Column Names**
@@ -42,10 +42,10 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 | `Total_Minor_Injuries`    | Total number of minor injuries.                                            |
 | `Total_Uninjured`         | Total number of uninjured individuals.                                     |
 | `Weather_Condition`       | Weather conditions at the time of the accident (e.g., VMC, IMC).           |
-| `Broad_Phase_of_Flight`   | Phase of flight during which the accident occurred (e.g., Takeoff, Cruise).|
+| `Broad_Phase_of_Flight`   | Phase of flight during the accident (e.g., Takeoff, Cruise).               |
 | `Report_Status`           | Status of the accident report (e.g., Final, Preliminary).                  |
 | `Publication_Date`        | Date the accident report was published.                                    |
-| `Synopsis`                | Brief summary or synopsis of the accident.                                 |
+| `Synopsis`                | summary or synopsis of the accident.                                       |
 
 **Dataset Samples**
 
@@ -76,11 +76,12 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
   
   - **Injury severity**
   - **Aircraft damage**
-  - **Aircraft type**
+  - **Aircraft category**
   - **Manufacturer**
   - **Number of engines**
   - **Engine types**
-  - **Purpose of use** (commercial vs. private)
+  - **FAR description**
+  - **Purpose of use**
   - **Weather conditions**
   - **Phase of flight during which the accident occurred**
     
@@ -108,6 +109,12 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 
 ## Visualizations
 The analysis also includes Tableau dashboards to provide interactive visualizations of the curated data, offering deeper insights into accident trends and risk factors. Few insights from the data i also shown in [Tableau Dashboard and Sheets](https://public.tableau.com/app/profile/md.reuzwan.hassan/viz/AviationAccidentDatabaseTableauDashboards/Dashboard1)
+
+
+![tableau_dashboard_1](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D1.png)
+
+
+![tableau_dashboard_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D2.png)
 
 ## Business Impact
 The insights and recommendations enable decision-makers to strategically evaluate aircraft purchase options, ensuring a balance between operational efficiency and safety while entering the aviation market.
