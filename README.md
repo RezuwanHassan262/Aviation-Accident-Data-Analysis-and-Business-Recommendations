@@ -2,18 +2,26 @@
 
 The analysis used the "Aviation Accident Database" and Tableau visualizations to identify low-risk aircraft and recommend safer models and practices for entering the aviation industry.
 
+Business Problem Statement:
+
+
 ## Project Overview
 This project supports a company’s strategic expansion into the aviation industry by identifying low-risk aircraft using the ["Aviation Accident Database & Synopses, up to 2023"](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) from Kaggle. The goal is to provide actionable insights and recommendations to minimize commercial and private aviation risks.
 
 ## Steps Undertaken
 
 ### 1. Data Preparation
+![clean data](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/13.jpg) 
 - Cleaned missing and inconsistent values.
 - Standardized features like aircraft type and manufacturer.
 - Removed irrelevant columns to focus on critical risk factors.
 
 ### 2. Exploratory Data Analysis (EDA)
 - Analyzed accident patterns across:
+
+![freq_mapping](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/1.png)
+
+  - **Aircraft accident occurance frequency mapping**
   - **Aircraft type**
   - **Manufacturer**
   - **Purpose of use** (commercial vs. private)
