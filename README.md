@@ -107,14 +107,14 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 3. **Operational Practices**:
    - Invest in training and compliance systems to enhance safety in private aviation operations.
 
-## Visualizations
+## Tableau Dashboard Visualizations
+
 The analysis also includes Tableau dashboards to provide interactive visualizations of the curated data, offering deeper insights into accident trends and risk factors. Few insights from the data i also shown in [Tableau Dashboard and Sheets](https://public.tableau.com/app/profile/md.reuzwan.hassan/viz/AviationAccidentDatabaseTableauDashboards/Dashboard1)
 
-
-**Dashboard 1**
+### **Dashboard 1**
 ![tableau_dashboard_1](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D1.PNG)
 
-**Dashboard 2**
+### **Dashboard 2**
 ![tableau_dashboard_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D2.PNG)
 
 ## Business Impact
