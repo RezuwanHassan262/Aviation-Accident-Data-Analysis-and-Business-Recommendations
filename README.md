@@ -66,6 +66,9 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 - Removed irrelevant columns to focus on critical risk factors.
 
 ### 2. Exploratory Data Analysis (EDA)
+
+#### Using Python 
+
 - Analyzed accident patterns across:
 
 ![freq_mapping](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/1.png)
@@ -73,7 +76,8 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 ![barplot_subplots](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/2.png)
 
 
-### **Insights:**
+**Insights:**
+
 - **Accident Occurrence:** Most aviation accidents during the period of this dataset occurred in the United States and Europe across the world 
 - **Injury Severity:** Most aviation accidents resulted in fatalities and other categories are much less common.
 - **Aircraft Damage:** Most aviation accidents caused substantial damage to aircraft, a smaller proportion resulted in the aircraft being destroyed, and minor damage was rare.
@@ -86,12 +90,59 @@ The dataset that was utilized for this project is the ["Aviation Accident Databa
 - **Weather Condition:** Most aviation accidents occur under VMC (Visual Meteorological Conditions), indicating clear weather. A smaller number of accidents happen under IMC (Instrument Meteorological Conditions), which involve poor visibility.
 - **Broad Phase of Flight:** Landing is the most accident-prone phase of flight, followed by takeoff and cruise. Climb and descent are less frequent, and go-around phases are rare.
 
+**Data distribution of the relevant columns**
 
 ![barplot_subplots_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/3.png)
 
-  - **Data distribution of the relevant columns**
-  After cleaning the dataset and removing the irrelevant columns, I checked the distribution of the data in the relevant columns. Since all figures are very positively skewed the following columns will be updated with the 'Median' which won't change the data drastically.
+- After cleaning the dataset and removing the irrelevant columns, I checked the distribution of the data in the relevant columns. Since all figures are very positively skewed the following columns will be updated with the 'Median' which won't change the data drastically.
 
+![Pairplot](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/4.png)
+
+- From the pair plot figure above, we can see the relationships between the numerical injury-related columns such as "Fatal", "Serious", "Minor", and "Uninjured". Since most values cluster near zero, indicating accidents with fewer injuries are common.
+
+![Facet_Grid](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/5.png)
+
+- From the facet grid figure above, we can see the distribution of Fatal injuries across Aircraft_Category and Severity. The count of fatalities varies between categories such as "Non-Fatal" and "Fatal" under different aircraft types.
+
+![Joint_Plot](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/6.png)
+
+- The joint plot above visualizes the relationship between Fatal and Serious injuries in aviation accidents with the data being further categorized by the weather conditions. From the figure above, we can infer,
+
+    1. Most data points are clustered near the origin suggesting that most accidents involve fewer fatalities and serious injuries.
+    2. Few points with high Fatal or Serious counts indicate outlier events with severe consequences.
+    3. Different weather conditions are scattered across the plot, though VMC (good weather) appears more common as it has more points which was also shown in the earlier countplot as well.
+
+![violin_plot](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/7.png)
+
+- The violin plot above visualizes the distribution of Fatal injuries across different Weather conditions. From the figure above we can infer,
+   
+   1. Across all weather conditions, most accidents result in very few fatalities, with density highest near zero.
+   2. Each condition has some extreme cases (Outliers) with high fatality counts causing the long tails in the figure.
+   3. No significant difference in fatality distributions between VMC and IMC conditions.
+
+![fatalities_by_flight_type](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/8.png)
+
+The figure above visualizes the categories of business that have the least fatalities associated with that business type by ranking the average fatalities by flight type. From the figure above we can infer,
+
+   1. The categories such as skydiving, firefighting, and executive flights show the highest risk of fatalities,
+   2. The categories such as instructional, banner tow, and aerial application activities demonstrate the least risk.
+
+![aircraft_count_by_damage by Purpose](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/9.png)
+
+The heatmap above visualizes the count of aircraft damage by purpose. From the heatmap above we can infer,
+
+   1. It seems that "Minor" damage is the most frequent across all flight purposes.
+   2. "Personal" flights have the highest overall count of damage, with a significant number of "Minor" and "Substantial" damages.
+   3. "Banner Tow", "Firefighting" and "Glider Tow" appear to have no minor damages.
+
+![aircraft_count_by_damage by Purpose](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/10.png)
+
+The heatmap above visualizes the engine count of the accidents under different categories of weather. From the heatmap above we can infer,
+
+  1. VMC (Visual Meteorological Conditions) has the highest number of aircraft with 1 engine, followed by IMC (Instrument Meteorological Conditions). (This was also visualized earlier as well)
+  2. Aircraft with 4 engines are relatively rare across all weather conditions suggesting aircraft with more engines are less prone to accidents.
+
+#### Using Tableau
 
 
 ## Key Findings
