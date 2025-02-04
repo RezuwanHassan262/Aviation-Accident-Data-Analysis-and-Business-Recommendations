@@ -144,26 +144,23 @@ The heatmap above visualizes the engine count of the accidents under different c
 
 #### Using Tableau
 
-
 ## Key Findings
 1. **Manufacturer and Model Reliability**:
+![Manufacturer and Model Reliability](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/T7.PNG)
    - Certain aircraft models demonstrated consistently lower accident rates relative to their market share, suggesting higher reliability.
 
 2. **Commercial vs. Private Aviation**:
-   - Commercial aviation showed fewer accidents per flight compared to private aviation due to stricter regulatory oversight and maintenance standards.
+![Commercial vs. Private Aviation](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/T5.PNG)
+   - Commercial aviation showed fewer accidents per flight than private aviation due to stricter regulatory oversight and maintenance standards.
 
 3. **Weather-Related Risks**:
+![Weather-Related Risks](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/T6.PNG)
    - Adverse weather conditions, such as low visibility, significantly contributed to accidents, highlighting the importance of weather-compatible aircraft.
 
 ## Risk Mitigation Recommendations
-1. **Aircraft Selection**:
-   - Focus on models with a proven safety record and strong maintenance support from manufacturers.
-
-2. **Weather Compatibility**:
-   - Prioritize aircraft with advanced navigation and weather systems to reduce risks during adverse conditions.
-
-3. **Operational Practices**:
-   - Invest in training and compliance systems to enhance safety in private aviation operations.
+1. **Aircraft Selection**: Focus on models with a proven safety record and strong maintenance support from manufacturers.
+2. **Weather Compatibility**: Prioritize aircraft with advanced navigation and weather systems to reduce risks during adverse conditions.
+3. **Operational Practices**: Invest in training and compliance systems to enhance safety in private aviation operations.
 
 ## Tableau Dashboard Visualizations
 
@@ -175,6 +172,19 @@ The analysis also includes Tableau dashboards to provide interactive visualizati
 ### **Dashboard 2**
 ![tableau_dashboard_2](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/D2.PNG)
 
-## Business Impact
-The insights and recommendations enable decision-makers to strategically evaluate aircraft purchase options, ensuring a balance between operational efficiency and safety while entering the aviation market.
+## Business Impact and making business recommendations
 
+After Determining which manufacturer planes are good for general business use based on the damage. I highlighted the manufacturer's accident counts, damage statistics, and an overall risk score to identify low-risk planes for potential purchase and introduced a new risk metric named "Risk_Score". 
+The insights and recommendations enable decision-makers to strategically evaluate aircraft purchase options strategically, ensuring a balance between operational efficiency and safety while entering the aviation market. I listed down the top 5 least risky and least safe makers to invest in shown in the tables below.
+
+### **Least Safe**
+![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/11.PNG)
+
+### **Least Risky**
+![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/12.PNG)
+
+I reached some conclusions after the analysis which will help identify manufacturers with higher overall risk based on accident data and severity categories.
+
+1. The analysis highlights that skydiving, firefighting, and executive flights carry the highest risk of fatalities, whereas activities like instructional flying, banner towing, and aerial applications pose the lowest risk.
+2. The findings suggest that single-engine aircraft may offer better survival prospects in adverse weather conditions.
+3. The extensive dataset for single-engine aircraft likely enhances the precision of the results.
