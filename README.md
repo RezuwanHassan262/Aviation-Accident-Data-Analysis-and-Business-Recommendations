@@ -178,10 +178,10 @@ After Determining which manufacturer planes are good for general business use ba
 The insights and recommendations enable decision-makers to strategically evaluate aircraft purchase options strategically, ensuring a balance between operational efficiency and safety while entering the aviation market. I listed down the top 5 least risky and least safe makers to invest in shown in the tables below.
 
 ### **Least Safe**
-![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/11.PNG)
+![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/11.png)
 
 ### **Least Risky**
-![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/12.PNG)
+![Least_Risky](https://raw.githubusercontent.com/RezuwanHassan262/Aviation-Accident-Data-Analysis-and-Business-Recommendations/main/images/12.png)
 
 I reached some conclusions after the analysis which will help identify manufacturers with higher overall risk based on accident data and severity categories.
 
