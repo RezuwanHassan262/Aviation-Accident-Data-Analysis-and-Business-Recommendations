@@ -2,8 +2,6 @@
 
 The analysis used the "Aviation Accident Database" and Tableau visualizations to identify low-risk aircraft and recommend safer models and practices for entering the aviation industry.
 
-Business Problem Statement:
-
 
 ## Project Overview
 This project supports a company’s strategic expansion into the aviation industry by identifying low-risk aircraft. The goal is to provide actionable insights and recommendations to minimize commercial and private aviation risks.
